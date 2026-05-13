@@ -4,30 +4,19 @@
 [![Last Commit](https://img.shields.io/github/last-commit/rdmgator12/Perplexity-Connectors-awesome-list-)](https://github.com/rdmgator12/Perplexity-Connectors-awesome-list-/commits/main)
 [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/rdmgator12/Perplexity-Connectors-awesome-list-/)
 
-> A curated directory of every connector available in Perplexity's [Computer](https://www.perplexity.ai/computer/connectors) integration surface — connect services so Computer can access and act on your data.
+> A curated directory of every connector available in Perplexity's [Computer](https://www.perplexity.ai/computer) integration surface — connect services so Computer can access and act on your data.
 
-**Last updated:** May 10, 2026 · **Connectors:** 39 · **Categories:** 11 · **Version:** [1.1.0](CHANGELOG.md)
-
----
-
-## About
+**Last updated:** May 10, 2026 · **Connectors:** 39 · **Categories:** 11 · **Version:** 1.1.0
 
 Perplexity Connectors are integrations that let Perplexity's Computer feature read from and act on your accounts at third-party services — email, files, project trackers, CRMs, financial data, healthcare records, and more. They power retrieval-augmented answers grounded in your own data and, where supported, agentic actions (creating tasks, updating CRM records, posting messages).
 
-This list tracks the connectors visible in the Perplexity Computer surface as of the **Last updated** date. Perplexity also exposes additional connectors at the Pro and Enterprise tiers — those are queued for v1.1.0 (see [CHANGELOG](CHANGELOG.md)).
+This list tracks the connectors visible in the Perplexity Computer surface as of the **Last updated** date. Perplexity also exposes additional connectors at the Pro and Enterprise tiers.
 
 For more information, see the [Perplexity Connectors Help Center](https://www.perplexity.ai/help-center/en/collections/18799295-connectors-integrations), the [App Connectors directory](https://www.perplexity.ai/help-center/en/collections/15347354-app-connectors), and the [Local and Remote MCPs documentation](https://www.perplexity.ai/help-center/en/articles/local-and-remote-mcps).
 
+**Legend:** 💎 Premium-tier required · 🎖️ Perplexity-internal connector (no external vendor surface).
+
 > This is an independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Perplexity AI, Inc. "Perplexity" and related marks are the property of Perplexity AI, Inc. Each connector is the property of its respective owner.
-
----
-
-## Legend
-
-- 💎 — Premium-tier required (Perplexity Premium / Pro / Enterprise paywall)
-- 🎖️ — Perplexity-internal connector (no external vendor surface)
-
-If a connector has neither marker, it is available on the standard Perplexity Computer surface and links to the third-party vendor's homepage.
 
 ---
 
@@ -44,10 +33,6 @@ If a connector has neither marker, it is available on the standard Perplexity Co
 - [Productivity and Notes](#productivity-and-notes)
 - [Project Management](#project-management)
 - [Research and Data](#research-and-data)
-- [Contributing](#contributing)
-- [Related](#related)
-
----
 
 ## Communication and Email
 
@@ -56,13 +41,11 @@ If a connector has neither marker, it is available on the standard Perplexity Co
 - [Outlook](https://outlook.com) - Search emails and calendar events. *Use case: Email triage in Microsoft 365 environments, calendar coordination across Outlook on the Web and outlook.com.*
 - [Slack](https://slack.com) - Search and post messages across your workspace. *Use case: Workspace-wide search beyond a single channel, posting messages from a research session, surfacing buried decisions in long threads.*
 
-
 ## Customer Support and CRM
 
 - [HubSpot](https://www.hubspot.com) - Retrieve, create, and update CRM objects; manage contacts, companies, deals, tasks, and notes. *Use case: Enriching deal records from research, logging contact notes from a call summary, querying pipeline state in natural language.*
 - [Intercom](https://www.intercom.com) - Search conversations and contacts; retrieve customer data, support tickets, and user profiles. *Use case: Pulling conversation history for a customer, summarizing recurring support themes, accessing user profile context during research.*
 - [Shopify](https://www.shopify.com) - Manage products, orders, customers, inventory, and store operations. *Use case: Querying order state, updating inventory from a sourcing decision, surfacing customer order history during support workflows.*
-
 
 ## Development Tools
 
@@ -70,9 +53,8 @@ If a connector has neither marker, it is available on the standard Perplexity Co
 - [Jam](https://jam.dev) - Access bug recordings with video, console logs, errors, network requests, and user events; create comments and manage issue tracking. *Use case: Triaging customer-reported bugs with full technical context, summarizing recurring failure modes across captured sessions.*
 - [Lucid](https://lucid.co) - Ideate, diagram, and align teams (Lucidchart and Lucidspark). *Use case: Generating architecture diagrams during a design session, reading existing whiteboards into a research thread, building visuals from data sources.*
 - [Stytch](https://stytch.com) - Authenticate and secure users, unifying login, authorization, and fraud protection for modern apps. *Use case: Querying auth events and user identity state, debugging login flows, reviewing fraud verdicts during incident response.*
-- [Supabase](https://supabase.com) - Build and manage your app's database, auth, and storage. *Use case: Querying Postgres tables in natural language, inspecting auth state, managing storage buckets without leaving the assistant.*
+- [Supabase](https://supabase.com) - Build and manage your app's database, auth, and storage. *Use case: Querying PostgreSQL tables in natural language, inspecting auth state, managing storage buckets without leaving the assistant.*
 - [Vercel](https://vercel.com) - Manage teams, projects, and deployments; search documentation and control infrastructure. *Use case: Checking deployment state, debugging build failures, querying analytics, controlling project config from a research thread.*
-
 
 ## Documents and Files
 
@@ -82,7 +64,6 @@ If a connector has neither marker, it is available on the standard Perplexity Co
 - [OneDrive](https://onedrive.live.com) - Get in-depth answers from OneDrive content. *Use case: Microsoft 365 file retrieval, summarizing Office documents, querying OneDrive content alongside web sources.*
 - [SharePoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration) - Get in-depth answers from SharePoint content. *Use case: Enterprise document search across SharePoint sites, retrieving policy/procedure docs, summarizing site content for stakeholders.*
 
-
 ## Finance and Investing
 
 - [Carbon Arc](https://carbonarc.ai) - Real-time transaction data insights and entity analytics. *Use case: Querying consumption-based data assets in natural language, building cohorts and entity analytics, surfacing transaction trends without dedicated data engineering.*
@@ -91,31 +72,26 @@ If a connector has neither marker, it is available on the standard Perplexity Co
 - [Morningstar](https://www.morningstar.com) - Access financial data, stock metrics, fund ratings, and investment research. *Use case: Equity and fund research, screening by Morningstar ratings, pulling fundamentals into investment workflows.*
 - [PitchBook](https://pitchbook.com) - Search firmographics for private and public companies. *Use case: Private-company research, ownership and funding history, comparing portfolio companies during diligence.*
 
-
 ## Healthcare and Life Sciences
 
 - [The BMJ](https://www.bmj.com) - International medical journal and healthcare knowledge platform. *Use case: Evidence retrieval for clinical questions, accessing investigations and policy commentary, citing peer-reviewed BMJ research in clinical reasoning.*
 - [Function Health](https://www.functionhealth.com) - Personalized health insights from your Function Health membership labs. *Use case: Querying your own lab trends across the 100+ test panels, surfacing flagged biomarkers, contextualizing follow-up labs against baseline.*
 - 🎖️ [Health and Fitness Apps](https://www.perplexity.ai/computer/connectors) - Securely connect health apps and wearables for personalized health insights. *Use case: Cross-source health data analysis (HRV, sleep, activity, nutrition), tracking trends across multiple apps, contextualizing wearable data with clinical questions.*
-- 🎖️ [Medical Records](https://www.perplexity.ai/computer/connectors) - Get personalized answers and plans using your health records. *Use case: Querying your own records, summarizing visit history, surfacing relevant prior diagnoses or labs during a clinical question.*
+- 🎖️ [Medical Records](https://www.perplexity.ai) - Get personalized answers and plans using your health records. *Use case: Querying your own records, summarizing visit history, surfacing relevant prior diagnoses or labs during a clinical question.*
 - [NEJM](https://www.nejm.org) - The New England Journal of Medicine — peer-reviewed clinical research and education. *Use case: Citing seminal trial evidence in clinical reasoning, accessing case-based education, sourcing rigorous medical research grounded in NEJM's editorial standard.*
-
 
 ## Legal
 
 - [Midpage](https://www.midpage.ai) - A law library for AI — search, analyze, and cite US case law with confidence. *Use case: Drafting briefs and memos with hyperlinked citations to real opinions, cite-checking drafts, finding cases by fact pattern across federal and state courts.*
 
-
 ## Lifestyle and Local
 
 - [DoorDash](https://www.doordash.com) - Manage deliveries, quotes, businesses, stores, and address lookup. *Use case: Ordering food via natural language, querying delivery status, accessing business and address data for logistics workflows.*
-
 
 ## Productivity and Notes
 
 - [Notion](https://www.notion.so) - Search and create content across your workspace. *Use case: Workspace-wide search, creating new pages from research output, updating databases and properties from natural-language commands.*
 - [Todoist](https://todoist.com) - Task planner and to-do list. *Use case: Adding tasks from a research session, querying due-date pressure across projects, summarizing weekly task load.*
-
 
 ## Project Management
 
@@ -125,30 +101,11 @@ If a connector has neither marker, it is available on the standard Perplexity Co
 - [Linear](https://linear.app) - Plan and track projects, issues, and team workflows. *Use case: Issue management for engineering teams, cycle planning, surfacing in-flight work across projects.*
 - [Monday.com](https://monday.com) - Manage boards, items, and groups; create updates and sub-items; automate project workflows. *Use case: Cross-board project queries, updating item status from research output, automating routine task creation.*
 
-
 ## Research and Data
 
 - 💎 [Statista](https://www.statista.com) - Market and consumer data. *Use case: Market sizing, consumer behavior research, sourcing statistics with attribution for reports and presentations.*
 - [Wiley](https://onlinelibrary.wiley.com) - Academic research and publications across disciplines. *Use case: Accessing peer-reviewed journal articles, citing Wiley-published research in academic and clinical work.*
 
-
----
-
 ## Contributing
 
 Contributions are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md) for the submission flow, tier-tracking conventions (Computer / Pro / Enterprise), and the entry style guide. By contributing you agree to the [Code of Conduct](code-of-conduct.md).
-
-## Related
-
-- [Awesome List for Claude Connectors](https://github.com/rdmgator12/awesome-claude-connectors) — Sister directory tracking Anthropic's official Claude Connectors Directory (375+ MCP integrations).
-- [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) — Broader directory of all known Model Context Protocol servers (not limited to any vendor's curated directory).
-- [Perplexity Help Center — Connectors](https://www.perplexity.ai/help-center/en/collections/18799295-connectors-integrations) — Official documentation.
-- [Perplexity Computer Connectors](https://www.perplexity.ai/computer/connectors) — Live in-product directory (account required).
-
----
-
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, [Ralph D. Martello](https://github.com/rdmgator12) has waived all copyright and related or neighboring rights to this work.
