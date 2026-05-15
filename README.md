@@ -6,11 +6,13 @@
 
 > A curated directory of every connector available in Perplexity's [Computer](https://www.perplexity.ai/computer) integration surface — connect services so Computer can access and act on your data.
 
-**Last updated:** May 10, 2026 · **Connectors:** 39 · **Categories:** 11 · **Version:** 1.1.0
+**Last updated:** May 15, 2026 · **Connectors curated:** 41 · **Perplexity claims:** 400+ available · **Categories:** 12 · **Version:** 1.2.0
 
 Perplexity Connectors are integrations that let Perplexity's Computer feature read from and act on your accounts at third-party services — email, files, project trackers, CRMs, financial data, healthcare records, and more. They power retrieval-augmented answers grounded in your own data and, where supported, agentic actions (creating tasks, updating CRM records, posting messages).
 
-This list tracks the connectors visible in the Perplexity Computer surface as of the **Last updated** date. Perplexity also exposes additional connectors at the Pro and Enterprise tiers.
+This list tracks the connectors documented in the Perplexity Computer Help Center as of the **Last updated** date. As of [May 7, 2026](https://www.aichatdaily.com/ai-tools/perplexity-personal-computer-mac-launch) Perplexity describes the broader Computer + Personal Computer surface as carrying **400+ connectors** — most of which are not individually documented on a public page. This list is therefore a *curated subset* of that universe, focused on connectors with first-party Help Center coverage. Perplexity also exposes additional connectors at the Pro and Enterprise tiers.
+
+**Personal Computer** (Mac, [GA May 7, 2026](https://tech.yahoo.com/ai/perplexity-ai/articles/perplexity-personal-computer-now-available-195759629.html)) extends the cloud Computer agent onto local files, native macOS apps, the same 400-connector surface, and a sandboxed cloud environment, with optional iPhone remote-approval. **1Password Unified Access** ([April 30, 2026 partnership](https://1password.com/blog/1password-and-perplexity-expand-partnership)) provides dynamic credential provisioning for Computer without exposing secrets to the model — relevant infrastructure for connector-heavy workflows, not a discrete connector itself.
 
 For more information, see the [Perplexity Connectors Help Center](https://www.perplexity.ai/help-center/en/collections/18799295-connectors-integrations), the [App Connectors directory](https://www.perplexity.ai/help-center/en/collections/15347354-app-connectors), and the [Local and Remote MCPs documentation](https://www.perplexity.ai/help-center/en/articles/local-and-remote-mcps).
 
@@ -24,6 +26,7 @@ For more information, see the [Perplexity Connectors Help Center](https://www.pe
 
 - [Communication and Email](#communication-and-email)
 - [Customer Support and CRM](#customer-support-and-crm)
+- [Data and Analytics](#data-and-analytics)
 - [Development Tools](#development-tools)
 - [Documents and Files](#documents-and-files)
 - [Finance and Investing](#finance-and-investing)
@@ -46,6 +49,11 @@ For more information, see the [Perplexity Connectors Help Center](https://www.pe
 - [HubSpot](https://www.hubspot.com) - Retrieve, create, and update CRM objects; manage contacts, companies, deals, tasks, and notes. *Use case: Enriching deal records from research, logging contact notes from a call summary, querying pipeline state in natural language.*
 - [Intercom](https://www.intercom.com) - Search conversations and contacts; retrieve customer data, support tickets, and user profiles. *Use case: Pulling conversation history for a customer, summarizing recurring support themes, accessing user profile context during research.*
 - [Shopify](https://www.shopify.com) - Manage products, orders, customers, inventory, and store operations. *Use case: Querying order state, updating inventory from a sourcing decision, surfacing customer order history during support workflows.*
+
+## Data and Analytics
+
+- [Databricks](https://www.databricks.com) - Query live lakehouse data, explore tables, and turn results into cited reports. Native AI data agent in Computer; admin-managed semantic-layer permissions. *Use case: Natural-language warehouse queries, cross-table joins for analysis, generating exportable cited reports without manual SQL exports. Joined Computer May 4, 2026.*
+- [Snowflake](https://www.snowflake.com) - Query live Snowflake warehouse data with semantic-layer awareness; results cited and exportable. *Use case: Plain-English BI against governed Snowflake data, ad-hoc analysis without notebooks, semantic-layer edits reviewed by admins before commit. Joined Computer May 4, 2026.*
 
 ## Development Tools
 
