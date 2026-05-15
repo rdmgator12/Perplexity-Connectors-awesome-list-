@@ -4,10 +4,32 @@ All notable changes to this list will be documented in this file. Format follows
 
 ## [Unreleased]
 
-### Planned for v1.3.0
-- Continue folding in Enterprise-tier connectors visible only on Perplexity's Enterprise directory: BioRender, ClickUp, Sentry, Klaviyo, Mailchimp, Docusign, Open Targets, ICD-10 Codes, ActiveCampaign, Cloudinary, Bitly, Fireflies, Circleback, Honeycomb, MotherDuck, WordPress.com, Jotform, Microsoft OneNote, Google Workspace Admin, GoDaddy, Crypto.com, Blockscout, Trivago, Netlify, and others — now that the Computer / Personal Computer surface claims 400+ available, this list will surface the Help-Center-documented subset as it grows.
+### Planned for v1.4.0
+- Continue folding in Enterprise-tier connectors visible only behind the Enterprise paywall: BioRender, ClickUp, Sentry, Mailchimp, Docusign, Open Targets, ICD-10 Codes, ActiveCampaign, Cloudinary, Bitly, Fireflies, Circleback, Honeycomb, MotherDuck, WordPress.com, Jotform, Microsoft OneNote, Google Workspace Admin, GoDaddy, Crypto.com, Blockscout, Trivago, Netlify, and others.
 - Investigate publishing a separate `enterprise-only.md` for connectors that appear only behind the Enterprise paywall.
-- Surface the 1Password Unified Access integration story when Perplexity publishes formal docs (currently announced via 1Password's blog, not yet on the Perplexity Help Center).
+- Track Perplexity's documented surface vs the 400+ headline number — submit PRs to the Perplexity team for any Help-Center-documented connectors not yet visible in this list.
+
+---
+
+## [1.3.0] — 2026-05-15
+
+### Added
+- **Design and Creative** category (new, 13th overall) — for visual-design connectors.
+- **Sales and Marketing** category (new, 14th overall) — separating outbound and lifecycle marketing from pure CRM.
+- **Canva** under *Design and Creative* — in-thread design generation, history search, brand-compliant workflows.
+- **Hugging Face** under *Research and Data* — model/dataset/Spaces discovery on the Hub.
+- **Apollo.io** under *Sales and Marketing* — B2B contact + company data for prospect research.
+- **Klaviyo** under *Sales and Marketing* — e-commerce marketing analytics + campaign queries.
+- **Unwrap** under *Customer Support and CRM* — aggregated voice-of-customer feedback insights.
+
+### Changed
+- **Databricks** and **Snowflake** flagged with 💎 and labeled *Computer for Enterprise only* — they shipped May 4, 2026 as native AI data agents in Computer for Enterprise, not visible in the Pro-tier Computer Connectors UI. Earlier v1.2.0 listing omitted the tier flag.
+- Sourced this update by diffing the live Computer Connectors UI (Pro tier) against the README, producing additions, removals, and tier corrections at the same time.
+- Header: Connectors 41 → 44. Categories 12 → 14. Version 1.2.0 → 1.3.0.
+
+### Removed
+- **Linear** — no longer visible in the Pro-tier Computer Connectors UI as of May 15, 2026. Removed to keep the list grounded in what's actually addressable.
+- **Shopify** — same: not visible in the current Pro-tier UI.
 
 ---
 
@@ -54,7 +76,8 @@ All notable changes to this list will be documented in this file. Format follows
 ### Categories
 Communication and Email · Customer Support and CRM · Development Tools · Documents and Files · Finance and Investing · Healthcare and Life Sciences · Legal · Lifestyle and Local · Productivity and Notes · Project Management · Research and Data.
 
-[Unreleased]: https://github.com/rdmgator12/Perplexity-Connectors-awesome-list-/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/rdmgator12/Perplexity-Connectors-awesome-list-/compare/v1.3.0...HEAD
+[1.3.0]: https://github.com/rdmgator12/Perplexity-Connectors-awesome-list-/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/rdmgator12/Perplexity-Connectors-awesome-list-/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/rdmgator12/Perplexity-Connectors-awesome-list-/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/rdmgator12/Perplexity-Connectors-awesome-list-/releases/tag/v1.0.0

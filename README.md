@@ -6,7 +6,7 @@
 
 > A curated directory of every connector available in Perplexity's [Computer](https://www.perplexity.ai/computer) integration surface — connect services so Computer can access and act on your data.
 
-**Last updated:** May 15, 2026 · **Connectors curated:** 41 · **Perplexity claims:** 400+ available · **Categories:** 12 · **Version:** 1.2.0
+**Last updated:** May 15, 2026 · **Connectors curated:** 44 · **Perplexity claims:** 400+ available · **Categories:** 14 · **Version:** 1.3.0
 
 Perplexity Connectors are integrations that let Perplexity's Computer feature read from and act on your accounts at third-party services — email, files, project trackers, CRMs, financial data, healthcare records, and more. They power retrieval-augmented answers grounded in your own data and, where supported, agentic actions (creating tasks, updating CRM records, posting messages).
 
@@ -27,6 +27,7 @@ For more information, see the [Perplexity Connectors Help Center](https://www.pe
 - [Communication and Email](#communication-and-email)
 - [Customer Support and CRM](#customer-support-and-crm)
 - [Data and Analytics](#data-and-analytics)
+- [Design and Creative](#design-and-creative)
 - [Development Tools](#development-tools)
 - [Documents and Files](#documents-and-files)
 - [Finance and Investing](#finance-and-investing)
@@ -36,6 +37,7 @@ For more information, see the [Perplexity Connectors Help Center](https://www.pe
 - [Productivity and Notes](#productivity-and-notes)
 - [Project Management](#project-management)
 - [Research and Data](#research-and-data)
+- [Sales and Marketing](#sales-and-marketing)
 
 ## Communication and Email
 
@@ -48,12 +50,16 @@ For more information, see the [Perplexity Connectors Help Center](https://www.pe
 
 - [HubSpot](https://www.hubspot.com) - Retrieve, create, and update CRM objects; manage contacts, companies, deals, tasks, and notes. *Use case: Enriching deal records from research, logging contact notes from a call summary, querying pipeline state in natural language.*
 - [Intercom](https://www.intercom.com) - Search conversations and contacts; retrieve customer data, support tickets, and user profiles. *Use case: Pulling conversation history for a customer, summarizing recurring support themes, accessing user profile context during research.*
-- [Shopify](https://www.shopify.com) - Manage products, orders, customers, inventory, and store operations. *Use case: Querying order state, updating inventory from a sourcing decision, surfacing customer order history during support workflows.*
+- [Unwrap](https://www.unwrap.ai) - Transparent and accurate insights shared across the organization, connecting everyone to the voice of the customer. *Use case: Aggregating customer feedback across channels, identifying recurring product themes, surfacing voice-of-customer signals in research threads.*
 
 ## Data and Analytics
 
-- [Databricks](https://www.databricks.com) - Query live lakehouse data, explore tables, and turn results into cited reports. Native AI data agent in Computer; admin-managed semantic-layer permissions. *Use case: Natural-language warehouse queries, cross-table joins for analysis, generating exportable cited reports without manual SQL exports. Joined Computer May 4, 2026.*
-- [Snowflake](https://www.snowflake.com) - Query live Snowflake warehouse data with semantic-layer awareness; results cited and exportable. *Use case: Plain-English BI against governed Snowflake data, ad-hoc analysis without notebooks, semantic-layer edits reviewed by admins before commit. Joined Computer May 4, 2026.*
+- 💎 [Databricks](https://www.databricks.com) - Query live lakehouse data, explore tables, and turn results into cited reports. Native AI data agent in Computer; admin-managed semantic-layer permissions. *Computer for Enterprise only. Use case: Natural-language warehouse queries, cross-table joins for analysis, generating exportable cited reports without manual SQL exports. Joined Computer May 4, 2026.*
+- 💎 [Snowflake](https://www.snowflake.com) - Query live Snowflake warehouse data with semantic-layer awareness; results cited and exportable. *Computer for Enterprise only. Use case: Plain-English BI against governed Snowflake data, ad-hoc analysis without notebooks, semantic-layer edits reviewed by admins before commit. Joined Computer May 4, 2026.*
+
+## Design and Creative
+
+- [Canva](https://www.canva.com) - Create, edit, and preview designs directly through AI chat; search design history; automate brand-compliant design workflows. *Use case: Generating social-ready visuals from a research output, iterating ad creatives in-thread, surfacing past designs by description without leaving the assistant.*
 
 ## Development Tools
 
@@ -106,13 +112,18 @@ For more information, see the [Perplexity Connectors Help Center](https://www.pe
 - [Asana](https://asana.com) - Plan and track projects, tasks, and team workflows. *Use case: Creating tasks from meeting notes, querying project status, surfacing dependencies and blockers across teams.*
 - [Confluence](https://www.atlassian.com/software/confluence) - Search and create wiki content across spaces. *Use case: Enterprise wiki search, drafting new pages from research output, summarizing space activity for stakeholders.*
 - [Jira](https://www.atlassian.com/software/jira) - Plan and track projects, tasks, and team workflows. *Use case: Issue triage, sprint planning, querying status across projects, creating tickets from natural-language descriptions.*
-- [Linear](https://linear.app) - Plan and track projects, issues, and team workflows. *Use case: Issue management for engineering teams, cycle planning, surfacing in-flight work across projects.*
 - [Monday.com](https://monday.com) - Manage boards, items, and groups; create updates and sub-items; automate project workflows. *Use case: Cross-board project queries, updating item status from research output, automating routine task creation.*
 
 ## Research and Data
 
+- [Hugging Face](https://huggingface.co) - Search and explore models, datasets, Spaces, papers, and collections on the Hub. *Use case: Discovering open-weight models for a specific task, looking up dataset cards, finding canonical papers and Spaces for ML research.*
 - 💎 [Statista](https://www.statista.com) - Market and consumer data. *Use case: Market sizing, consumer behavior research, sourcing statistics with attribution for reports and presentations.*
 - [Wiley](https://onlinelibrary.wiley.com) - Academic research and publications across disciplines. *Use case: Accessing peer-reviewed journal articles, citing Wiley-published research in academic and clinical work.*
+
+## Sales and Marketing
+
+- [Apollo.io](https://www.apollo.io) - Data-first sales acceleration platform. *Use case: Contact and company enrichment, prospect list-building from natural-language criteria, outbound research grounded in real B2B data.*
+- [Klaviyo](https://www.klaviyo.com) - Manage profiles, lists, segments, campaigns, flows, events, metrics, and templates; analyze marketing performance and customer data. *Use case: E-commerce marketing analytics in-thread, segment performance queries, campaign reporting without leaving the research surface.*
 
 ## Contributing
 
